@@ -797,14 +797,19 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-rt" "55135" "-no-remote" "-profile" "C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileWtZbs6"
-1640217094328	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileWtZbs6\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55135/devtools/browser/afea17c1-0ae7-4b60-bd02-b1ea08c8d453
-1640217097239	Marionette	INFO	Listening on port 55141
-1640217097438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://dressa.com.ua/ line 417 > injectedScript, line 2: TypeError: document.querySelector(...) is null
-1640217104446	Marionette	INFO	Stopped listening on port 55141
+1640220144163	Marionette	INFO	Stopped listening on port 54975
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+640217104446	Marionette	INFO	Stopped listening on port 55141
 1640217105758	geckodriver	INFO	Listening on 127.0.0.1:55243
 1640217108815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55244" "-no-remote" "-profile" "C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofile6Ijdcn"
 1640217109457	Marionette	INFO	Marionette enabled
@@ -1666,4 +1671,94 @@ JavaScript error: https://dressa.com.ua/ line 417 > injectedScript, line 2: Type
 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640732100598	geckodriver	INFO	Listening on 127.0.0.1:63643
+1640732103673	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63644" "-no-remote" "-profile" "C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileKnhuka"
+1640732104898	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileKnhuka\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63644/devtools/browser/15f650ac-8359-40be-a007-2dfcf3d60b41
+1640732108414	Marionette	INFO	Listening on port 63649
+1640732108548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://dressa.com.ua/ line 417 > injectedScript, line 2: TypeError: document.querySelector(...) is null
+1640732116803	Marionette	INFO	Stopped listening on port 63649
+1640732118219	geckodriver	INFO	Listening on 127.0.0.1:63746
+1640732121273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63747" "-no-remote" "-profile" "C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileM2NNJA"
+1640732121832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileM2NNJA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63747/devtools/browser/3c6bb1d3-190a-43f2-8901-c48177a3c2f8
+1640732124866	Marionette	INFO	Listening on port 63752
+1640732124999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640732133288	Marionette	INFO	Stopped listening on port 63752
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Irina\AppData\Local\Temp\rust_mozprofileM2NNJA\protections.sqlite
+1640732135613	geckodriver	INFO	Listening on 127.0.0.1:63878
+1640732138868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63879" "-no-remote" "-profile" "C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileQfbTQl"
+1640732139619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Irina\\AppData\\Local\\Temp\\rust_mozprofileQfbTQl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63879/devtools/browser/7b55502b-1cc6-4aba-bc36-5e83018870ef
+1640732142561	Marionette	INFO	Listening on port 63884
+1640732143071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://dressa.com.ua/ line 417 > injectedScript, line 2: TypeError: document.querySelector(...) is null
+1640732148981	Marionette	INFO	Stopped listening on port 63884
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 

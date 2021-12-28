@@ -1,20 +1,19 @@
 import time
 from unittest import TestCase
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 
 from PageElements import SearchHelper
+from config import config
 
 
 class Tests(TestCase):
     def setUp(self) -> None:
-        profile_path = r"C:\Users\Irina\AppData\Roaming\Mozilla\Firefox\Profiles\wiio9me0.default"
+        profile_path = config["profile_path"]
         options = Options()
         options.set_preference('profile', profile_path)
-        service = Service(r'C:\geckodriver-v0.30.0-win64\geckodriver.exe')
+        service = Service(config['firefox_webdriver'])
         self.browser = webdriver.Firefox(service=service, options=options)
 
 
@@ -41,4 +40,3 @@ class Tests(TestCase):
         text = main_page.show_bag_shop()
         assert "корзина пуста" == text.lower()
         self.browser.close()
-        # self.browser.quit()
